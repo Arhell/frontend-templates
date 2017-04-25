@@ -10,7 +10,7 @@ var gulp           = require('gulp'),
 		cache          = require('gulp-cache'),
 		autoprefixer   = require('gulp-autoprefixer'),
 		notify         = require("gulp-notify"),
-		pug						 = require("gulp-pug") ;
+		pug            = require("gulp-pug") ;
 
 
 gulp.task('common-js', function() {
