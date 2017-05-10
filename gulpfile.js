@@ -56,7 +56,9 @@ gulp.task('sass', function() {
 
 gulp.task('pug', function() {
 	return gulp.src('srs/pug/**/*.pug')
-	.pipe(pug())
+	.pipe(pug({
+		pretty: true // Not inline html
+	}))
 	.pipe(gulp.dest('srs'))
 });
 
