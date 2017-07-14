@@ -8,7 +8,7 @@ The template uses a Sass with **Sass** syntax and project structure with source 
 
 ## How to use SHT
 
-1. <a href="https://github.com/Arhell/pug-sass-gulp-start-template/archive/master.zip">Download</a> **SHT** from GitHub / <a href="x-github-client://openRepo/https://github.com/Arhell/pug-sass-gulp-start-template">Clone</a> / Fork &uarr; ;
+1. <a href="https://github.com/Arhell/pug-sass-gulp-start-template/archive/master.zip">Download</a> **SHT** from GitHub / **Clone** / **Fork** **&uarr;** ;
 1. Install Node Modules: **npm i**;
 1. Run the template: **gulp**.
 
