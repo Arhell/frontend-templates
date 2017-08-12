@@ -63,6 +63,12 @@ gulp.task('pug', function() {
 	.pipe(gulp.dest('srs'))
 });
 
+gulp.task('imagemin', function() {
+	return gulp.src('src/img/**/*')
+	.pipe(cache(imagemin()))
+	.pipe(gulp.dest('dist/img')); 
+});
+
 gulp.task('watch', ['sass', 'js', 'pug', 'browser-sync'], function() {
 	gulp.watch('srs/sass/**/*.sass', ['sass']);
 	gulp.watch(['srs/pug/**/*.pug'], ['pug']);
