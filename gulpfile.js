@@ -20,7 +20,7 @@ gulp.task('common-js', function() {
 		])
 	.pipe(concat('common.min.js'))
 	.pipe(uglify())
-	.pipe(gulp.dest('srs/js'));
+	.pipe(gulp.dest('src/js'));
 });
 
 gulp.task('js', ['common-js'], function() {
