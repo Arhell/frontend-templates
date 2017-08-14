@@ -30,7 +30,7 @@ gulp.task('js', ['common-js'], function() {
 		])
 	.pipe(concat('scripts.min.js'))
 	//.pipe(uglify()) 
-	.pipe(gulp.dest('srs/js'))
+	.pipe(gulp.dest('src/js'))
 	.pipe(browserSync.reload({stream: true}));
 });
 
