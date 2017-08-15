@@ -37,7 +37,7 @@ gulp.task('js', ['common-js'], function() {
 gulp.task('browser-sync', function() {
 	browserSync({
 		server: {
-			baseDir: 'srs'
+			baseDir: 'srс'
 		},
 		notify: false,
 		// tunnel: true,
