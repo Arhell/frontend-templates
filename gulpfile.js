@@ -60,7 +60,7 @@ gulp.task('pug', function() {
 	.pipe(pug({
 		pretty: true // Not inline html
 	}))
-	.pipe(gulp.dest('srs'))
+	.pipe(gulp.dest('src'))
 });
 
 gulp.task('imagemin', function() {
