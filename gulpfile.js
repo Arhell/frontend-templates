@@ -71,7 +71,7 @@ gulp.task('imagemin', function() {
 
 gulp.task('watch', ['sass', 'js', 'pug', 'browser-sync'], function() {
 	gulp.watch('src/sass/**/*.sass', ['sass']);
-	gulp.watch(['srs/pug/**/*.pug'], ['pug']);
+	gulp.watch(['src/pug/**/*.pug'], ['pug']);
 	gulp.watch(['libs/**/*.js', 'srs/js/common.js'], ['js']);
 	gulp.watch('srs/*.html', browserSync.reload);
 });
