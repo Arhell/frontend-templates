@@ -80,7 +80,7 @@ gulp.task('watch', ['sass', 'js', 'pug', 'browser-sync'], function() {
 gulp.task('build', ['removedist','sass','pug', 'js'], function() {
 
 	var buildFiles = gulp.src([
-		'srs/*.html',
+		'src/*.html',
 		]).pipe(gulp.dest('dist'));
 
 	var buildCss = gulp.src([
