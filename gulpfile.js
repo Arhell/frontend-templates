@@ -92,7 +92,7 @@ gulp.task('build', ['removedist','sass','pug', 'js'], function() {
 		]).pipe(gulp.dest('dist/js'));
 
 	var buildFonts = gulp.src([
-		'srs/fonts/**/*',
+		'src/fonts/**/*',
 		]).pipe(gulp.dest('dist/fonts'));
 
 });
