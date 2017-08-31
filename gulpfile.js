@@ -60,6 +60,12 @@ gulp.task('pug', function() {
 	.pipe(pug({
 		pretty: true // Not inline html
 	}))
+	.on('error', $.gp.notify.onError(function(error) {
+		return {
+			title: 'Pug',
+			message: error.message
+		};
+	}))
 	.pipe(gulp.dest('src'))
 });
 
