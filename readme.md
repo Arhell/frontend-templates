@@ -1,4 +1,4 @@
-# Pug Sass Gulp - Start HTML Template
+# Start HTML Template
 
 **SHT** - start html template Gulp, Sass, Pug, Browsersync, Autoprefixer, Clean-CSS and Uglify. 
 
