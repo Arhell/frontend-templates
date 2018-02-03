@@ -1,6 +1,6 @@
 # Start HTML Template
 
-**SHT** - start html template Gulp, Sass, Pug, Browsersync, Autoprefixer, Clean-CSS and Uglify. 
+**SHT** - start html template. 
 
 Cross-browser compatibility: IE9+.
 
