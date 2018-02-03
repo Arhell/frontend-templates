@@ -1,6 +1,6 @@
 # Start HTML Template
 
-**SHT** - start html template. 
+**SHT** - start html template mobile first. 
 
 Cross-browser compatibility: IE9+.
 
