@@ -58,7 +58,7 @@ gulp.task('sass', function() {
 gulp.task('pug', function() {
 	return gulp.src('src/pug/**/*.pug')
 	.pipe(pug({
-		pretty: true // Not inline html
+		pretty: true // No inline html
 	}))
 	.on('error', $.gp.notify.onError(function(error) {
 		return {
@@ -97,9 +97,9 @@ gulp.task('build', ['removedist','sass','pug', 'js'], function() {
 		'src/js/scripts.min.js',
 		]).pipe(gulp.dest('dist/js'));
 
-	var buildFonts = gulp.src([
-		'src/fonts/**/*',
-		]).pipe(gulp.dest('dist/fonts'));
+	//var buildFonts = gulp.src([
+	//	'src/fonts/**/*',
+	//	]).pipe(gulp.dest('dist/fonts'));
 
 });
 
