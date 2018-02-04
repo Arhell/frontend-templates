@@ -2,7 +2,7 @@
 
 **SHT** - start html template mobile first. 
 
-Cross-browser compatibility: IE9+.
+Cross-browser compatibility: IE9+ using bootstrap 3.3.7 grid.
 
 The template uses a Sass with **Sass** syntax and project structure with source code in the directory **src/** and production folder **dist/**, that contains ready project with optimized HTML, CSS, JS and images.
 
