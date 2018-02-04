@@ -14,6 +14,6 @@ The template uses a Sass with **Sass** syntax and project structure with source 
 
 ## Gulp tasks:
 
-* **gulp**: run default gulp task (sass, js, watch, browserSync) for web development;
+* **gulp**: run default gulp task (sass, js, browserSync) for web development;
 * **build**: build project to **dist** folder (cleanup, image optimize, removing unnecessary files);
 * **clearcache**: clear all gulp cache.
