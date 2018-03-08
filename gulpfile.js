@@ -97,10 +97,6 @@ gulp.task('build', ['removedist','sass','pug', 'js'], function() {
 		'src/js/scripts.min.js',
 		]).pipe(gulp.dest('dist/js'));
 
-	//var buildFonts = gulp.src([
-	//	'src/fonts/**/*',
-	//	]).pipe(gulp.dest('dist/fonts'));
-
 });
 
 gulp.task('removedist', function() { return del.sync('dist'); });
