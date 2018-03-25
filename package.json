@@ -10,12 +10,12 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-cache": "^1.0.2",
-    "gulp-clean-css": "^3.9.2",
+    "gulp-clean-css": "^3.9.3",
     "gulp-concat": "^2.6.1",
     "gulp-notify": "^3.2.0",
     "gulp-pug": "^3.3.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^3.2.1",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8"
   }
