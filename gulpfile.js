@@ -83,21 +83,7 @@ gulp.task('watch', ['sass', 'js', 'pug', 'browser-sync'], function() {
 });
 
 
-gulp.task('build', ['removedist','sass','pug', 'js'], function() {
 
-	var buildFiles = gulp.src([
-		'src/*.html',
-		]).pipe(gulp.dest('dist'));
-
-	var buildCss = gulp.src([
-		'src/css/main.min.css',
-		]).pipe(gulp.dest('dist/css'));
-
-	var buildJs = gulp.src([
-		'src/js/scripts.min.js',
-		]).pipe(gulp.dest('dist/js'));
-
-});
 
 gulp.task('clearcache', function () { return cache.clearAll(); });
 
