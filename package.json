@@ -1,7 +1,7 @@
 {
   "name": "SHT",
   "version": "0.1.0",
-  "description": "update project",
+  "description": "Start Html Template",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
