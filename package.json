@@ -1,0 +1,20 @@
+{
+  "name": "SHT",
+  "version": "1.0.0",
+  "description": "update project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arhell/pug-sass-gulp-start-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arhell/pug-sass-gulp-start-template/issues"
+  },
+  "homepage": "https://github.com/Arhell/pug-sass-gulp-start-template#readme"
+}
