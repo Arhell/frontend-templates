@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Arhell/pug-sass-gulp-start-template.git"
+    "url": "git+https://github.com/Arhell/SHT.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Arhell/pug-sass-gulp-start-template/issues"
+    "url": "https://github.com/Arhell/SHT/issues"
   },
-  "homepage": "https://github.com/Arhell/pug-sass-gulp-start-template#readme"
+  "homepage": "https://github.com/Arhell/SHT#readme"
 }
