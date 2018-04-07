@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Arhell/SHT.git"
   },
-  "keywords": [],
+  "keywords": ["pug", "stylus", "gulp"],
   "author": "Arhell",
   "license": "ISC",
   "bugs": {
