@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Arhell/SHT#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-cli": "^2.0.1"
+    "gulp-cli": "^2.0.1",
+    "gulp-pug": "^3.3.0"
   }
 }
