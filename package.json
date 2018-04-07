@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Arhell/SHT/issues"
   },
-  "homepage": "https://github.com/Arhell/SHT#readme"
+  "homepage": "https://github.com/Arhell/SHT#readme",
+  "devDependencies": {
+    "gulp-cli": "^2.0.1"
+  }
 }
