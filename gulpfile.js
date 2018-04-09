@@ -1,4 +1,5 @@
 'use strict';
 
-var gulp = regiure('gulp'),
-		pug  = require('gulp-pug');
+var gulp = reguire('gulp'),
+		glp  = reguire('gulp-load-plugins');
+
