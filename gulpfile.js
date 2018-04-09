@@ -1,7 +1,7 @@
 'use strict';
 
-var gulp = reguire('gulp'),
-		glp  = reguire('gulp-load-plugins')();
+var gulp = require('gulp'),
+		glp  = require('gulp-load-plugins')();
 
 gulp.task('pug', function () {
 	return gulp.src('src/pug/*.pug')
