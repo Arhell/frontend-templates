@@ -10,3 +10,9 @@ gulp.task('pug', function () {
 		}))
 		.pipe(gulp.dest('dist'));
 });
+
+gulp.task('stylus', function () {
+	return gulp.src('src/stylus/*.styl')
+		.pipe(glp.stylus({}))
+		.pipe(gulp.dest('dist'));
+});
