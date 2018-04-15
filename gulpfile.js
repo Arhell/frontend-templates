@@ -15,5 +15,5 @@ gulp.task('stylus', function () {
 	return gulp.src('src/stylus/*.styl')
 		.pipe(glp.stylus({}))
 		.pipr(glp.csso())
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('dist/css'));
 });
