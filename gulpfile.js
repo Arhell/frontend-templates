@@ -1,7 +1,8 @@
 'use strict';
 
 var gulp = require('gulp'),
-		glp  = require('gulp-load-plugins')();
+		glp  = require('gulp-load-plugins')(),
+		bs = require('browser-sync').create();
 
 gulp.task('pug', function () {
 	return gulp.src('src/pug/*.pug')
@@ -16,4 +17,12 @@ gulp.task('stylus', function () {
 		.pipe(glp.stylus({}))
 		.pipe(glp.csso())
 		.pipe(gulp.dest('dist/css'));
+});
+
+gulp.task('bs', function() {
+	browserSync.init({
+		server: {
+			baseDir: "./dist"
+		}
+	});
 });
