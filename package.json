@@ -1,6 +1,6 @@
 {
   "name": "SHT",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Start Html Template",
   "main": "index.js",
   "scripts": {
