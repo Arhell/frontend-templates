@@ -15,6 +15,10 @@ gulp.task('pug', function () {
 gulp.task('stylus', function () {
 	return gulp.src('src/stylus/*.styl')
 		.pipe(glp.stylus({}))
+		.pipe(glp.autoprefixer({
+			browsers: ['last 10 versions'],
+			cascade: false
+		}))
 		.pipe(glp.csso())
 		.pipe(gulp.dest('dist/css'));
 });
