@@ -2,7 +2,7 @@
 
 var gulp = require('gulp'),
 		glp  = require('gulp-load-plugins')(),
-		bs = require('browser-sync').create();
+		bs   = require('browser-sync').create();
 
 gulp.task('pug', function () {
 	return gulp.src('src/pug/*.pug')
@@ -29,4 +29,5 @@ gulp.task('bs', function() {
 			baseDir: "./dist"
 		}
 	});
+	browserSync.watch('dist', browserSync.reload)
 });
