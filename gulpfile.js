@@ -19,6 +19,9 @@ gulp.task('stylus', function () {
 			browsers: ['last 10 versions'],
 			cascade: false
 		}))
+		.on("error", notify.onError({
+			title: "Stylus error"
+		}))
 		.pipe(glp.csso())
 		.pipe(gulp.dest('dist/css'));
 });
