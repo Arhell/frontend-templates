@@ -15,7 +15,9 @@ gulp.task('pug', function () {
 gulp.task('stylus', function () {
 	return gulp.src('src/stylus/*.styl')
 		.pipe(glp.sourcemaps.init())
-		.pipe(glp.stylus({}))
+		.pipe(glp.stylus({
+			'include css': true
+		}))
 		.pipe(glp.autoprefixer({
 			browsers: ['last 10 versions'],
 			cascade: false
