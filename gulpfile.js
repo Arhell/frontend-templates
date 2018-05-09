@@ -14,17 +14,17 @@ gulp.task('pug', function () {
 
 gulp.task('stylus', function () {
 	return gulp.src('src/stylus/*.styl')
-		.pipe(sourcemaps.init())
+		.pipe(glp.sourcemaps.init())
 		.pipe(glp.stylus({}))
 		.pipe(glp.autoprefixer({
 			browsers: ['last 10 versions'],
 			cascade: false
 		}))
-		.on("error", notify.onError({
+		.on("error", glp.notify.onError({
 			title: "Stylus error"
 		}))
 		.pipe(glp.csso())
-		.pipe(sourcemaps.write())
+		.pipe(glp.sourcemaps.write())
 		.pipe(gulp.dest('dist/css'));
 });
 
