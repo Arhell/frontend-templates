@@ -38,3 +38,8 @@ gulp.task('bs', function() {
 	});
 	browserSync.watch('dist', browserSync.reload)
 });
+
+gulp.task('watch', function () {
+	gulp.watch('src/pug/*.pug', gulp.series('pug'));
+	gulp.watch('src/stylus/*.styl', gulp.series('stylus'));
+});
