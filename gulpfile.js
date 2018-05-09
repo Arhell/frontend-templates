@@ -14,6 +14,7 @@ gulp.task('pug', function () {
 
 gulp.task('stylus', function () {
 	return gulp.src('src/stylus/*.styl')
+		.pipe(sourcemaps.init())
 		.pipe(glp.stylus({}))
 		.pipe(glp.autoprefixer({
 			browsers: ['last 10 versions'],
@@ -23,6 +24,7 @@ gulp.task('stylus', function () {
 			title: "Stylus error"
 		}))
 		.pipe(glp.csso())
+		.pipe(sourcemaps.write())
 		.pipe(gulp.dest('dist/css'));
 });
 
