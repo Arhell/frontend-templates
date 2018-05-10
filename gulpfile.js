@@ -43,3 +43,5 @@ gulp.task('watch', function () {
 	gulp.watch('src/pug/*.pug', gulp.series('pug'));
 	gulp.watch('src/stylus/*.styl', gulp.series('stylus'));
 });
+
+gulp.task('default', gulp.series(gulp.parallel('pug', 'stylus'), 'watch'));
