@@ -46,5 +46,5 @@ gulp.task('watch', function () {
 
 gulp.task('default', gulp.series(
 	gulp.parallel('pug', 'stylus'),
-	'watch'
+	gulp.parallel('watch', 'bs')
 ));
