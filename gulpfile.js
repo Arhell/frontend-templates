@@ -31,12 +31,12 @@ gulp.task('stylus', function () {
 });
 
 gulp.task('bs', function() {
-	browserSync.init({
+	bs.init({
 		server: {
 			baseDir: "./dist"
 		}
 	});
-	browserSync.watch('dist', browserSync.reload)
+	bs.watch('dist', bs.reload)
 });
 
 gulp.task('watch', function () {
