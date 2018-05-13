@@ -23,7 +23,7 @@
   "homepage": "https://github.com/Arhell/SHT#readme",
   "devDependencies": {
     "browser-sync": "^2.24.4",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-cli": "^2.0.1",
     "gulp-csso": "^3.0.1",
