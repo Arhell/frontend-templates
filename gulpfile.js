@@ -28,7 +28,8 @@ gulp.task('stylus', function () {
 		}))
 		.pipe(glp.csso())
 		.pipe(glp.sourcemaps.write())
-		.pipe(gulp.dest('dist/css'));
+		.pipe(gulp.dest('dist/css'))
+		.on('end', bs.reload);
 });
 
 gulp.task('bs', function() {
