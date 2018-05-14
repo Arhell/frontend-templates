@@ -10,6 +10,7 @@ gulp.task('pug', function () {
 			pretty:true
 		}))
 		.pipe(gulp.dest('dist'));
+		.on('end', bs.reload);
 });
 
 gulp.task('stylus', function () {
