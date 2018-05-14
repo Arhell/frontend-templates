@@ -36,7 +36,6 @@ gulp.task('bs', function() {
 			baseDir: "./dist"
 		}
 	});
-	bs.watch('dist', bs.reload)
 });
 
 gulp.task('watch', function () {
