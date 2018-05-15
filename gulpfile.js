@@ -29,7 +29,9 @@ gulp.task('stylus', function () {
 		.pipe(glp.csso())
 		.pipe(glp.sourcemaps.write())
 		.pipe(gulp.dest('dist/css'))
-		.on('end', bs.reload);
+		.on(bs.reload ({
+			stream: true
+		}));
 });
 
 gulp.task('bs', function() {
