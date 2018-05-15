@@ -29,7 +29,7 @@ gulp.task('stylus', function () {
 		.pipe(glp.csso())
 		.pipe(glp.sourcemaps.write())
 		.pipe(gulp.dest('dist/css'))
-		.on(bs.reload ({
+		.pipe(bs.reload ({
 			stream: true
 		}));
 });
