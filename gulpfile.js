@@ -34,6 +34,13 @@ gulp.task('stylus', function () {
 		}));
 });
 
+gulp.task('script', function () {
+	return gulp.src('src/scripts/*.js')
+		.pipe(bs.reload ({
+			stream: true
+		}));
+});
+
 gulp.task('bs', function() {
 	bs.init({
 		server: {
