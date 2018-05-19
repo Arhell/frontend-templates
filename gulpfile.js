@@ -35,9 +35,9 @@ gulp.task('stylus', function () {
 });
 
 gulp.task('script', function () {
-	return gulp.src(['src/js/common.js',
-										'src/js/common.js'
-									])
+	return gulp.src(['src/js/libs.js',
+									 'src/js/common.js'
+		])
 		.pipe(glp.concat('scripts.min.js'))
 		.pipe(gulp.dest('dist/js'))
 		.pipe(bs.reload ({
