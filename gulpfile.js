@@ -34,7 +34,7 @@ gulp.task('stylus', function () {
 		}));
 });
 
-gulp.task('script', function () {
+gulp.task('scripts', function () {
 	return gulp.src(['src/js/libs.js',
 									 'src/js/common.js'
 		])
