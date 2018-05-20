@@ -59,6 +59,6 @@ gulp.task('watch', function () {
 });
 
 gulp.task('default', gulp.series(
-	gulp.parallel('pug', 'stylus', 'script'),
+	gulp.parallel('pug', 'stylus', 'scripts'),
 	gulp.parallel('watch', 'bs')
 ));
