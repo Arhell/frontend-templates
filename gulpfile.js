@@ -2,6 +2,7 @@
 
 var gulp = require('gulp'),
 		glp  = require('gulp-load-plugins')(),
+		img  = require('gulp-imagemin'),
 		bs   = require('browser-sync').create();
 
 gulp.task('pug', function () {
@@ -47,8 +48,8 @@ gulp.task('scripts', function () {
 
 gulp.task('img', () =>
 	gulp.src('src/img/*')
-		.pipe(imagemin())
-		.pipe(gulp.dest('dist/images'))
+		.pipe(img())
+		.pipe(gulp.dest('dist/img'))
 );
 
 gulp.task('bs', function() {
