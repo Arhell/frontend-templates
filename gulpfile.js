@@ -2,7 +2,6 @@
 
 var gulp = require('gulp'),
 		glp  = require('gulp-load-plugins')(),
-		img  = require('gulp-imagemin'),
 		bs   = require('browser-sync').create();
 
 gulp.task('pug', function () {
