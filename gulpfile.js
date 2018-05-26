@@ -45,11 +45,6 @@ gulp.task('scripts', function () {
 		}));
 });
 
-gulp.task('img', function () {
-	gulp.src('src/img/*')
-		.pipe(gulp.dest('dist/img'))
-});
-
 gulp.task('bs', function() {
 	bs.init({
 		server: {
