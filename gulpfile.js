@@ -53,6 +53,12 @@ gulp.task('bs', function() {
 	});
 });
 
+gulp.task('default', () =>
+gulp.src('src/img/*')
+    .pipe(glp.imagemin())
+    .pipe(gulp.dest('dist/img'))
+);
+
 gulp.task('watch', function () {
 	gulp.watch('src/pug/*.pug', gulp.series('pug'));
 	gulp.watch('src/stylus/*.styl', gulp.series('stylus'));
