@@ -53,11 +53,12 @@ gulp.task('bs', function() {
 	});
 });
 
-gulp.task('img', () =>
-gulp.src('src/img/*')
-    .pipe(glp.imagemin())
-    .pipe(gulp.dest('dist/img'))
-);
+gulp.task('img', function()  {
+  return gulp.src('src/img/*.{png, jpg, gif}')
+		.pipe(glp.imagemin())
+		.pipe(gulp.dest('dist/img'));
+});
+
 
 gulp.task('watch', function () {
 	gulp.watch('src/pug/*.pug', gulp.series('pug'));
