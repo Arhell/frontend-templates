@@ -53,7 +53,7 @@ gulp.task('bs', function() {
 	});
 });
 
-gulp.task('default', () =>
+gulp.task('img', () =>
 gulp.src('src/img/*')
     .pipe(glp.imagemin())
     .pipe(gulp.dest('dist/img'))
@@ -66,6 +66,6 @@ gulp.task('watch', function () {
 });
 
 gulp.task('default', gulp.series(
-	gulp.parallel('pug', 'stylus', 'scripts'),
+	gulp.parallel('pug', 'stylus', 'scripts', 'img'),
 	gulp.parallel('watch', 'bs')
 ));
