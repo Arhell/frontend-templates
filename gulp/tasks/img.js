@@ -4,4 +4,4 @@ module.exports = function () {
       .pipe(glp.imagemin())
       .pipe(gulp.dest('dist/img'));
   });
-}
+};

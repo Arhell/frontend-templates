@@ -4,4 +4,4 @@ module.exports = function () {
     gulp.watch('src/stylus/*.styl', gulp.series('stylus'));
     gulp.watch('src/js/*.js', gulp.series('scripts'));
   });
-}
+};

@@ -7,4 +7,4 @@ module.exports = function () {
       .pipe(gulp.dest('dist'))
       .on('end', bs.reload);
   });
-}
+};
