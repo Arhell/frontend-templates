@@ -3,9 +3,16 @@
 global.$ = {
   gulp: require('gulp'),
   glp:  require('gulp-load-plugins')(),
-  bs:   require('browser-sync').create()
+  bs:   require('browser-sync').create(),
+
+  path: {
+    tasks: './gulp/config/tasks.js'
+  }
 };
 
+$.path.tasks.forEach(function (taskPath) {
+  require(taskPath)();
+})
 
 
 
