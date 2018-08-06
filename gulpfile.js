@@ -12,7 +12,7 @@ global.$ = {
 
 $.path.tasks.forEach(function (taskPath) {
   require(taskPath)();
-})
+});
 
 
 
