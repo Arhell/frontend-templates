@@ -6,7 +6,7 @@ global.$ = {
   bs:   require('browser-sync').create(),
 
   path: {
-    tasks: require('./gulp/config/tasks.js')
+    tasks: require('./gulp/config/tasks')
   }
 };
 

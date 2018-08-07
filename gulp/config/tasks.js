@@ -1,4 +1,4 @@
-module.export = [
+module.exports = [
   './gulp/tasks/browser-sync',
   './gulp/tasks/img',
   './gulp/tasks/pug',
