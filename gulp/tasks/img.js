@@ -1,8 +1,10 @@
+$.glp.mozjpeg = require('imagemin-mozjpeg');
+
 module.exports = function () {
   $.gulp.task('img', function () {
-    return $.gulp.src('src/img/*.{png, jpg, gif}')
+    return $.gulp.src('src/img/*')
       .pipe($.glp.imagemin(
-        [imageminMozjpeg()],
+        [$.glp.mozjpeg()],
         {verbose: true}
       ))
       .pipe($.gulp.dest('dist/img'));
