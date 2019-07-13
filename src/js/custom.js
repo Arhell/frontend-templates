@@ -1,0 +1,5 @@
+$(function() {
+
+	cosole.log('Hello')
+
+});
