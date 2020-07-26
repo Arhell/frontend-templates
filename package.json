@@ -1,6 +1,6 @@
 {
   "name": "GHT",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Gulp Html Template",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/Arhell/GHT/issues"
   },
-  "homepage": "https://github.com/Arhell/SHT#readme",
+  "homepage": "https://github.com/Arhell/GHT#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
@@ -37,5 +37,10 @@
     "gulp-svgmin": "^2.2.0",
     "imagemin-mozjpeg": "^8.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "autoprefixer": "^9.8.5"
+  },
+  "browserslist": [
+    "last 10 version"
+  ]
 }

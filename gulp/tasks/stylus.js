@@ -6,8 +6,7 @@ module.exports = function () {
         'include css': true
       }))
       .pipe($.glp.autoprefixer({
-        browsers: ['last 10 versions'],
-        cascade: false
+        cascade: true
       }))
       .on("error", $.glp.notify.onError({
         title: "Stylus error"
