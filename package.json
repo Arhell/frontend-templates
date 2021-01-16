@@ -38,7 +38,7 @@
     "imagemin-mozjpeg": "^9.0.0"
   },
   "dependencies": {
-    "autoprefixer": "^10.1.0"
+    "autoprefixer": "^10.2.1"
   },
   "browserslist": [
     "last 10 version"
