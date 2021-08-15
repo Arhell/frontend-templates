@@ -1,0 +1,33 @@
+{
+	"name": "frontend-template",
+	"version": "1.0.0",
+	"description": "gulp template for quit start",
+	"main": "index.js",
+	"author": "Arhell",
+	"license": "ISC",
+	"scripts": {
+		"start": "gulp",
+		"build": "gulp build"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.15.0",
+		"@babel/preset-env": "^7.15.0",
+		"babel-loader": "^8.2.2",
+		"babel-plugin-module-resolver": "^4.1.0",
+		"babel-plugin-root-import": "^6.6.0",
+		"browser-sync": "^2.27.5",
+		"browsersync-ssi": "^0.2.4",
+		"del": "^6.0.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^8.0.0",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-newer": "^1.4.0",
+		"gulp-noop": "^1.0.1",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^5.0.0",
+		"gulp-sass-glob": "^1.1.0",
+		"sass": "^1.37.5",
+		"webpack-stream": "^6.1.2"
+	}
+}
